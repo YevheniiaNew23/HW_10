@@ -1,0 +1,162 @@
+    1  pwd
+    2  ls -l
+    3  cd Do
+    4  cd Dokuments
+    5   clean
+    6  cleans
+    7  pwd
+    8  cd Documents
+    9  mkdir test_Dir1
+   10  ls
+   11  ls -l
+   12  cd test_dir1
+   13  pwd
+   14  clear
+   15  touch test.txt
+   16  ls -l
+   17   vin test.txt
+   18  vin test.txt
+   19  wiv test.txt
+   20* 
+   21  pwd
+   22  vin test.txt
+   23  ls -l
+   24  vin test.txt
+   25  vin test.txt
+   26  clear
+   27  ls -
+   28  ls -l
+   29  vin test.txt
+   30  vim test.txt
+   31  ls -l
+   32  cat test.txt
+   33  head test.txt
+   34  tail test.txt
+   35  pdw
+   36   pwd
+   37  ls -l
+   38  mkdir
+   39  mkdir child_dir
+   40  ls -l
+   41  cp test.txt child_dir
+   42  ls -l
+   43  cd child_dir
+   44     child_dir ls -l
+   45  rm test.txt
+   46  child_dir ls -l
+   47  cd ..
+   48  test_dir ls -l
+   49  cd ..
+   50  test_dir1
+   51  mv test.txt child_dir/
+   52  child_dir ls -l
+   53  clear
+   54  ping goole.com
+   55  whoami
+   56  child_dir whoami
+   57  ipconfig
+   58   clear
+   59  cd test_dir1
+   60  ls -l
+   61  git config --global user.name YevheniiaNew23 comfy.33ua@gmail.com
+   62  git config --get user.name
+   63  git config --get user.email
+   64  git clone https://github.com/YevheniiaNew23/repo_test.git
+   65  cd repo_test
+   66  git status
+   67  git checkout -b test branch
+   68  git branch
+   69  repo_test  git branch
+   70  repo_test ls -l
+   71  claer
+   72  clear
+   73  test_dir1 is -l
+   74  ls -l
+   75  repo_test git status
+   76  git status
+   77  git checkout -b test_branch
+   78  git status
+   79  ls -l
+   80  touch test.txt
+   81  ls -l
+   82  git add test.txt
+   83  git status
+   84  git commit -m "added new txt file"
+   85  git status
+   86  git log
+   87   git push origin test_branch
+   88  git marge test_branch
+   89  git log
+   90  git status
+   91  git push origin main
+   92  git checkout -b test_branch_2
+   93  ls -l
+   94  touch .gitignore
+   95  ls -l
+   96  ls -la
+   97  vim .gitignore
+   98  git status
+   99  git add .gitignore
+  100  git commit -m "added" gitignore
+  101  git pushorigin main
+  102  git push origin main
+  103  git status
+  104  ls -la
+  105  touch new_file.txt
+  106  git status
+  107  git status
+  108  clear
+  109  cd GIT
+  110  cd
+  111  cd documents
+  112  clear
+  113  mkdir myhome
+  114  c
+  115  cd
+  116  cd myhome
+  117  clear
+  118  cd
+  119  mkdir
+  120  mkdir Myhome
+  121  cd
+  122  is -l
+  123  ls -l
+  124  ls -l Myhome
+  125  clear
+  126  ls -l Myhome
+  127  git config --global user.name YevheniiaNew23
+  128  git config --global user.email comfy.33ua@gmail.com
+  129  mkdir HW_10
+  130  cd HW_10
+  131  git clone https://github.com/YevheniiaNew23/HW_10.git
+  132  cd HW_10
+  133  touch text_ignore.txt
+  134  ls -l
+  135  echo "text_ignore.txt" >> .gitignore
+  136  git status
+  137  git add .
+  138  git commit -m "Added text_ignore.txt to .gitignore
+git commit -m "Addede text_ignore.txt
+  139  touch main_test.txt
+  140  ls -l
+  141  git add.
+  142  git commit -m "Added main_test.txt"
+  143  git checkout -b develop
+  144  touch develop_test.txt
+  145  ls -l
+  146  git add .
+  147  git commit -m "Added develop_test.txt"
+  148  echo >> develop_test.txt
+  149  git add develop_test.txt
+  150  git status
+  151  git add .
+  152  git commit -m develop_test.txt
+  153  git checkout main
+  154  gid merge develop
+  155  git merge develop_test.txt
+  156  echo "Some changes" >> develop_test.txt
+  157  git add develop_test.txt
+  158  git commit -m "Made changes to develop_test.txt"
+  159  git checkout main
+  160  git meerge develop
+  161  history > command_list.csv
