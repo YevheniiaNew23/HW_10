@@ -177,3 +177,8 @@ git commit -m "Addede text_ignore.txt
   176  git commit -m "Made changes to develop_test.txt"
   177  git command_list.csv
   178  history > command_list.csv
+  179  ls -l
+  180  git add .
+  181  git commit -m "Added command_list.csv"
+  182  git push origin main
+  183  history > command_list.csv 
