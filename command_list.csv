@@ -160,3 +160,20 @@ git commit -m "Addede text_ignore.txt
   159  git checkout main
   160  git meerge develop
   161  history > command_list.csv
+  162  git add .
+  163  git commit -m "Added command_list.csv"
+  164  git push origin main
+  165  touch main_test.txt
+  166  ls -l
+  167  git add .
+  168  git commit -m "Added main_test.txt"
+  169  git checkout -b develop
+  170  touch develop_test.txt
+  171  ls -l
+  172  git add .
+  173  git commit -m "Added develop_test.txt"
+  174  echo "Some changes" >> develop_test.txt
+  175  git add develop_test.txt
+  176  git commit -m "Made changes to develop_test.txt"
+  177  git command_list.csv
+  178  history > command_list.csv
